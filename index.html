@@ -1,25 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Forecast</title>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <header>
-        <nav>
-            
-        </nav>
+        <h1>Weather Dashboard</h1>
+
+        <section class="city-search">
+            <div class="searchContainer">
+                <input id="searchBar" type="text" placeholder="City">
+                <button type="button" id="searchBtn">Search</button>
+            </div>
+    
+            <div class="searched-cities"></div>
+        </section>
     </header>
 
     <main>
 
+        <section class="display-weather">
+            <section class="today-weather">
+                <div class="today-card">
+                    <h3 id="city-name"></h3>
+                    <h4 id="current-time"></h4>
+                    <h4 id="current-day"></h4>
+                    <img id="current-icon" class="card-img-top" alt="Icon depiction of current weather condition.">
+                    <div class="card-body">
+                        <p id="current-condition"></p>
+                        <p id="current-temp"></p>
+                        <p id="current-humidity"></p>
+                        <p id="current-wind"></p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="five-day-forecast"></section>
+        </section>
 
     </main>
-
-    <footer>
-    
-    </footer>
+    <script src="./assets/js/script.js"></script>
 </body>
+
 </html>

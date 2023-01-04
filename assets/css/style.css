@@ -1,0 +1,104 @@
+:root {
+    --light: rgb(118, 146, 206);
+    --dark: rgb(46, 35, 65);
+    --textlight: rgb(212, 226, 247);
+}
+
+header{
+    height: 10vh;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: var(--dark);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body{
+    background-color: var(--light);
+}
+
+h1{
+    text-align:center;
+    font: 3rem sans-serif;
+    color: var(--textlight);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.city-search{
+    display: flex;
+    height: 7vh;
+    justify-content: center;
+}
+
+.searchContainer{
+    display: flex;
+}
+
+#searchBtn{
+    color: var(--textlight);
+    background-color: var(--light);
+}
+
+#searchBar{
+    text-align: center;
+    font-size: 20px;
+}
+
+.searched-cities{
+    padding: 1rem;
+    width: 20vw;
+}
+
+.searched-cities button{
+    margin: .5rem;
+    border-radius: 10px;
+} 
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+}
+
+.display-weather{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.five-day-forecast {
+    display: flex;
+    align-items : center;
+    justify-content: center;
+}
+
+.today-card,
+.dailyCard{
+    background-color: var(--dark);
+    color: var(--textlight);
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.today-weather img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.five-day-forecast img{
+    height: 4rem;
+    width: 4rem;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
