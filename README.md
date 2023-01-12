@@ -12,10 +12,6 @@ This was a class project to create a weather dashboard using public APIs.
 
 https://dalidorn.github.io/Weather-Dashboard/
 
-## Installation
-
-Clone the repository at https://github.com/Dalidorn/E-Commerce-Back-End, update the .env.EXAMPLE file to your personal data, create the DB using the schema, and seed the data.
-
 ## License
 
 This project is covered under the MIT License.
