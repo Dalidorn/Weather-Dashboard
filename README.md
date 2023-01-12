@@ -6,7 +6,7 @@
 
 This was a class project to create a weather dashboard using public APIs.
 
-![Landing Page]()
+![Landing Page](https://raw.githubusercontent.com/Dalidorn/Weather-Dashboard/main/assets/images/Capture.JPG)
 
 ## Project Live URL
 
